@@ -1,4 +1,5 @@
-# Ciril-Group-Semulation-Feu-En-Foret
+# 🌱 Ciril-Group-Semulation-Feu-En-Foret 🌱
+# 👋 FATAH Mohammed 👋
 # Simulation de propagation de feu
 
 Ce projet simule la propagation du feu dans une grille en utilisant un modèle probabiliste. Les cases de la grille peuvent être dans l'un des trois états : ARBRE, EN_FEU, ou CENDRE.
@@ -27,6 +28,43 @@ L'algorithme suit les étapes suivantes :
     - Fin Si
 - Fin
 
+# Présentation du projet 
+
+
+## ⚡ Structure du Projet
+
+Dans ce projet, j'ai structuré l'organisation de manière efficace. Voici la structure du projet :
+
+- **`src/main/java/ `** Contient tout le code source du projet ainsi que les ressources nécessaires.
+- **`com/fatah/semulationfeuenforet/`**  Paquetage principal du projet.
+- **`config/ `** Contient la classe de configuration du programme. Les paramètres tels que la `hauteur`, la `largeur`, la `probabilité` et `les cases initiales en feu` sont stockés dans un fichier de configuration `application.yaml`.
+- **`controller/`**  Contient une classe RestController pour gérer les interactions via des `API REST`.
+- **`frame/`**  Contient la classe relatives à l'interface utilisateur `JFrame`.
+- **`grille/`**  Contient les classes de gestion de la grille de simulation.
+- **`image/`**  Contient la classe pour enregistrer un état de grille sous forme d'image.
+- **`json/ `** Contient les classes pour enregistrer un état de grille sous forme un fichiers JSON.
+- **`mainRun/ `** Contient deux classes Main principale pour exécuter le programme en console et en JFrame.
+- **`semulation/`**  Contient la classe de la simulation de propagation de feu sur la grille.
+- **`resources/ `** Contient les ressources non Java.
+
+
+## ⚡ Prérequis
+
+- Avant de commencer, assurez-vous d'avoir Java JDK 17 ou + installé sur votre système.
+- Maven installé
+
+## ⚡ Installation
+
+1. Clonez ce dépôt sur votre machine locale.
+2. Importez le projet dans votre environnement de développement Java préféré IntelliJ IDEA.
+3. Configurez les dépendances nécessaires .
+4. Exécutez.................................
+
+## ⚡ Configuration
+
+Avant d'exécuter les tests, assurez-vous de recharger Maven pour télécharger les dépendances nécessaires en exécutant la
+commande suivante :
+
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20140.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20141.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20142.png)
@@ -34,6 +72,11 @@ L'algorithme suit les étapes suivantes :
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20144.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20145.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20160.png)
+
+
+⚡⚡⚡⚡⚡⚡⚡
+```bash
+mvn clean install 
 
 
 
