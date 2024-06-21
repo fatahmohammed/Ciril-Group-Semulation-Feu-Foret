@@ -27,7 +27,7 @@ L'algorithme suit les étapes suivantes :
     - Fin Si
 - Fin
 
-![](Etat 140.png) 
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20965.png) 
 ![](Etat 141.png)
 ![](Etat 142.png)
 ![](Etat 143.png)
