@@ -101,7 +101,7 @@ Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON.
 {"Etat 0": [
 
     ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","EN_FEU","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
     ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
     ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
     ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
@@ -109,7 +109,7 @@ Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON.
     ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
     ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
     ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"]
+    ["ARBRE","EN_FEU","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"]
 ]}
 ```
 
