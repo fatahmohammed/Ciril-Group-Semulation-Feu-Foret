@@ -53,9 +53,16 @@ Dans ce projet, j'ai structuré l'organisation de manière efficace. Voici la st
 
 - Avant de commencer, assurez-vous d'avoir Java JDK 17 ou + installé sur votre système.
 - Maven installé
+- ## ⚡ Configuration
+
+Avant d'exécuter les tests, assurez-vous de recharger Maven pour télécharger les dépendances nécessaires en exécutant la
+commande suivante :
+⚡⚡⚡⚡⚡⚡⚡
+```bash
+mvn clean install 
 
 ## ⚡ Installation
-
+````
 1. Clonez ce dépôt sur votre machine locale.
 2. Importez le projet dans votre environnement de développement Java préféré IntelliJ IDEA.
 3. Configurez les dépendances nécessaires .
@@ -89,13 +96,7 @@ Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON.
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20145.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20160.png)
 
-## ⚡ Configuration
 
-Avant d'exécuter les tests, assurez-vous de recharger Maven pour télécharger les dépendances nécessaires en exécutant la
-commande suivante :
-⚡⚡⚡⚡⚡⚡⚡
-```bash
-mvn clean install 
 
 
 
