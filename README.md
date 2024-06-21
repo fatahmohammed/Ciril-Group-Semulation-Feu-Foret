@@ -44,7 +44,7 @@ Dans ce projet, j'ai structuré l'organisation de manière efficace. Voici la st
 - **`image/`**  Contient la classe pour enregistrer un état de grille sous forme d'image.
 - **`json/ `** Contient les classes pour enregistrer un état de grille sous forme un fichiers JSON.
 - **`mainRun/ `** Contient deux classes Main principale pour exécuter le programme en console ou en JFrame.
-- **`semulation/`**  Contient la classe de la simulation de propagation de feu sur la grille.
+- **`simulation/`**  Contient la classe de la simulation de propagation de feu sur la grille.
 - **`resources/ `** Contient les ressources non Java.
 - **`SemulationFeuEnForetApplication`** Classe principale pour lancer l'API REST.
 
