@@ -60,9 +60,9 @@ commande suivante :
 ⚡⚡⚡⚡⚡⚡⚡
 ```bash
 mvn clean install 
-
-## ⚡ Installation
 ````
+## ⚡ Installation
+
 1. Clonez ce dépôt sur votre machine locale.
 2. Importez le projet dans votre environnement de développement Java préféré IntelliJ IDEA.
 3. Configurez les dépendances nécessaires .
