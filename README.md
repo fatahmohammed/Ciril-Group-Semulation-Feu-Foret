@@ -27,12 +27,12 @@ L'algorithme suit les étapes suivantes :
     - Fin Si
 - Fin
 
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20965.png) 
-![](Etat 141.png)
-![](Etat 142.png)
-![](Etat 143.png)
-![](Etat 144.png)
-![](Etat 145.png)
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%140.png) 
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%141.png)
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%142.png)
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%143.png)
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%144.png)
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%145.png)
 
 
 
