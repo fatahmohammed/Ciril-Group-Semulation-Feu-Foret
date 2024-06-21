@@ -1,0 +1,7 @@
+dimensions:
+  hauteur: 100
+  largeur: 100
+casesEnFeu:
+  - [50, 50]
+probabilite:
+  propagation: 0.6
