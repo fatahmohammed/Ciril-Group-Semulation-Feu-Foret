@@ -1,6 +1,6 @@
-package com.fatah.semulationfeuenforet.semulation;
+package com.fatah.simulationfeuenforet.simulation;
 
-import com.fatah.semulationfeuenforet.grille.GrilleXY;
+import com.fatah.simulationfeuenforet.grille.GrilleXY;
 
 import java.util.List;
 

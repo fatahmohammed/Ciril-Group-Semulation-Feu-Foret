@@ -1,4 +1,4 @@
-package com.fatah.semulationfeuenforet.config;
+package com.fatah.simulationfeuenforet.config;
 
 import org.yaml.snakeyaml.Yaml;
 import java.io.InputStream;

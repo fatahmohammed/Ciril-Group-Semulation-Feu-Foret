@@ -1,6 +1,6 @@
-package com.fatah.semulationfeuenforet.image;
+package com.fatah.simulationfeuenforet.image;
 
-import com.fatah.semulationfeuenforet.grille.EtatcaseXY;
+import com.fatah.simulationfeuenforet.grille.EtatcaseXY;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

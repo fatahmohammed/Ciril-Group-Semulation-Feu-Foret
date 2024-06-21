@@ -1,6 +1,6 @@
-package com.fatah.semulationfeuenforet.json;
+package com.fatah.simulationfeuenforet.json;
 
-import com.fatah.semulationfeuenforet.grille.EtatcaseXY;
+import com.fatah.simulationfeuenforet.grille.EtatcaseXY;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.FileWriter;

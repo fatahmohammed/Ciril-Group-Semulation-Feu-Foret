@@ -1,6 +1,6 @@
-package com.fatah.semulationfeuenforet.mainRun;
+package com.fatah.simulationfeuenforet.mainRun;
 
-import com.fatah.semulationfeuenforet.frame.ImageDisplayFrame;
+import com.fatah.simulationfeuenforet.frame.ImageDisplayFrame;
 
 import javax.swing.*;
 

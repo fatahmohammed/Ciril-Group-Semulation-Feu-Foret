@@ -1,4 +1,4 @@
-package com.fatah.semulationfeuenforet.grille;
+package com.fatah.simulationfeuenforet.grille;
 
 public enum EtatcaseXY {
 

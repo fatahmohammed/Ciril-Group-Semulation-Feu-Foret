@@ -1,10 +1,9 @@
-package com.fatah.semulationfeuenforet.controller;
+package com.fatah.simulationfeuenforet.controller;
 
 
-import com.fatah.semulationfeuenforet.semulation.SimulationForetEnFeu;
+import com.fatah.simulationfeuenforet.simulation.SimulationForetEnFeu;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

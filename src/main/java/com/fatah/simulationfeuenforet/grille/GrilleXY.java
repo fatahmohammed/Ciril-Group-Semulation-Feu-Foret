@@ -1,7 +1,7 @@
-package com.fatah.semulationfeuenforet.grille;
+package com.fatah.simulationfeuenforet.grille;
 
-import com.fatah.semulationfeuenforet.image.EtatParImage;
-import com.fatah.semulationfeuenforet.json.EtatParJson;
+import com.fatah.simulationfeuenforet.image.EtatParImage;
+import com.fatah.simulationfeuenforet.json.EtatParJson;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

@@ -1,8 +1,8 @@
-package com.fatah.semulationfeuenforet.mainRun;
+package com.fatah.simulationfeuenforet.mainRun;
 
 
-import com.fatah.semulationfeuenforet.config.YamlConfigReader;
-import com.fatah.semulationfeuenforet.semulation.SimulationForetEnFeu;
+import com.fatah.simulationfeuenforet.config.YamlConfigReader;
+import com.fatah.simulationfeuenforet.simulation.SimulationForetEnFeu;
 
 import java.util.ArrayList;
 import java.util.List;

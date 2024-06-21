@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fatah</groupId>
-	<artifactId>SemulationFeuEnForet</artifactId>
+	<artifactId>SimulationFeuEnForet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SemulationFeuEnForet</name>
 	<description>SemulationFeuEnForet</description>

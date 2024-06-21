@@ -1,6 +1,6 @@
-package com.fatah.semulationfeuenforet.frame;
+package com.fatah.simulationfeuenforet.frame;
 
-import com.fatah.semulationfeuenforet.semulation.SimulationForetEnFeu;
+import com.fatah.simulationfeuenforet.simulation.SimulationForetEnFeu;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,12 +28,12 @@ public class ImageDisplayFrame extends JFrame {
     int etat;
 
     public ImageDisplayFrame() {
-        setTitle("Image Display and Simulation");
+        setTitle("Simulation Feu En Foret avec affichage des états en image ");
         setSize(1000, 800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        imagePaths = new String[]{ "images/Etat 0.png" };
+        imagePaths = new String[]{ "target/Etat 0.png" };
 
         imagePanel = new JPanel();
         imageLabel = new JLabel();

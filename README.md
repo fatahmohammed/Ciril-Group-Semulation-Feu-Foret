@@ -1,4 +1,4 @@
-# 🌱 Ciril-Group-Semulation-Feu-En-Foret 🌱
+# 🌱 Ciril-Group-Simulation-Feu-En-Foret 🌱
 # 👋 FATAH Mohammed 👋
 # Simulation de propagation de feu
 
@@ -36,16 +36,17 @@ L'algorithme suit les étapes suivantes :
 Dans ce projet, j'ai structuré l'organisation de manière efficace. Voici la structure du projet :
 
 - **`src/main/java/ `** Contient tout le code source du projet ainsi que les ressources nécessaires.
-- **`com/fatah/semulationfeuenforet/`**  Paquetage principal du projet.
+- **`com/fatah/simulationfeuenforet/`**  Paquetage principal du projet.
 - **`config/ `** Contient la classe de configuration du programme. Les paramètres tels que la `hauteur`, la `largeur`, la `probabilité` et `les cases initiales en feu` sont stockés dans un fichier de configuration `application.yaml`.
 - **`controller/`**  Contient une classe RestController pour gérer les interactions via des `API REST`.
 - **`frame/`**  Contient la classe relatives à l'interface utilisateur `JFrame`.
 - **`grille/`**  Contient les classes de gestion de la grille de simulation.
 - **`image/`**  Contient la classe pour enregistrer un état de grille sous forme d'image.
 - **`json/ `** Contient les classes pour enregistrer un état de grille sous forme un fichiers JSON.
-- **`mainRun/ `** Contient deux classes Main principale pour exécuter le programme en console et en JFrame.
+- **`mainRun/ `** Contient deux classes Main principale pour exécuter le programme en console ou en JFrame.
 - **`semulation/`**  Contient la classe de la simulation de propagation de feu sur la grille.
 - **`resources/ `** Contient les ressources non Java.
+- **`SemulationFeuEnForetApplication`** Classe principale pour lancer l'API REST.
 
 
 ## ⚡ Prérequis
@@ -58,13 +59,28 @@ Dans ce projet, j'ai structuré l'organisation de manière efficace. Voici la st
 1. Clonez ce dépôt sur votre machine locale.
 2. Importez le projet dans votre environnement de développement Java préféré IntelliJ IDEA.
 3. Configurez les dépendances nécessaires .
-4. Exécutez.................................
+4. Exécutez. `Main` sous Console `main2` sous JFrame et `SemulationFeuEnForetApplication` est API REST.
 
-## ⚡ Configuration
+## Console
+![]()
+## JFrame
+![]()
+## API REST 
+Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON. Voici un exemple :
+```json
+{
+  "hauteur": 100,
+  "largeur": 200,
+  "probabilite": 0.5,
+  "feuxInitials": [
+    [4, 4],
+    [6, 8]
+  ]
+}
+```
+![]()
 
-Avant d'exécuter les tests, assurez-vous de recharger Maven pour télécharger les dépendances nécessaires en exécutant la
-commande suivante :
-
+## un ensemble d'états en image aprés simulation  
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20140.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20141.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20142.png)
@@ -73,7 +89,10 @@ commande suivante :
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20145.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20160.png)
 
+## ⚡ Configuration
 
+Avant d'exécuter les tests, assurez-vous de recharger Maven pour télécharger les dépendances nécessaires en exécutant la
+commande suivante :
 ⚡⚡⚡⚡⚡⚡⚡
 ```bash
 mvn clean install 
