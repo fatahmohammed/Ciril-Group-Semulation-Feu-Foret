@@ -24,7 +24,7 @@ public class EtatParJson {
             jsonArray.put(rowArray);
         }
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("tableau", jsonArray);
+        jsonObject.put("Etat "+etat, jsonArray);
 
         try (FileWriter fileWriter = new FileWriter("target/Etat "+etat+".json"))
         {

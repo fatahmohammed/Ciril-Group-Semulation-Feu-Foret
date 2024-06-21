@@ -87,7 +87,7 @@ Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON.
 ```
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Simulation%20sous%20API%20REST.png)
 
-## un ensemble d'états en image aprés simulation  
+## un exemple d'ensemble d'états en image aprés simulation  
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20140.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20141.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20142.png)
@@ -96,7 +96,22 @@ Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON.
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20145.png)
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20160.png)
 
+## un exemple d'un d'état en JSON
+```json
+{"Etat 0": [
 
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","EN_FEU","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
+    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"]
+]}
+```
 
 
 
