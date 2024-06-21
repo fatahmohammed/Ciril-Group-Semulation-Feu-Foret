@@ -62,9 +62,9 @@ Dans ce projet, j'ai structuré l'organisation de manière efficace. Voici la st
 4. Exécutez. `Main` sous Console `main2` sous JFrame et `SemulationFeuEnForetApplication` est API REST.
 
 ## Console
-![]()
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Simulation%20sous%20console.png)
 ## JFrame
-![]()
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Simulation%20sous%20JFrame.png)
 ## API REST 
 Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON. Voici un exemple :
 ```json
@@ -78,7 +78,7 @@ Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON.
   ]
 }
 ```
-![]()
+![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Simulation%20sous%20API%20REST.png)
 
 ## un ensemble d'états en image aprés simulation  
 ![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20140.png)
