@@ -16,10 +16,10 @@ public class ImageDisplayFrame extends JFrame {
     private JButton nextButton;
     private JButton prevButton;
     private JButton simulateButton;
-    private JTextField heightField;
-    private JTextField widthField;
-    private JTextField probabilityField;
-    private JTextField initialFireField;
+    private JTextField hauteurIn;
+    private JTextField largeurIn;
+    private JTextField probabiliteIn;
+    private JTextField feuxInitials;
     private JLabel textLabel1;
     private JLabel textLabel2;
     private JLabel textLabel3;
@@ -43,10 +43,10 @@ public class ImageDisplayFrame extends JFrame {
         prevButton = new JButton("Previous");prevButton.setEnabled(false);
         simulateButton = new JButton("Lancer la simulation");
 
-        heightField = new JTextField(5);
-        widthField = new JTextField(5);
-        probabilityField = new JTextField(5);
-        initialFireField = new JTextField(20);
+        hauteurIn= new JTextField(5);
+        largeurIn = new JTextField(5);
+        probabiliteIn = new JTextField(5);
+        feuxInitials = new JTextField(20);
 
         textLabel1 = new JLabel("Text1");
         textLabel2 = new JLabel("Text2");
@@ -60,13 +60,13 @@ public class ImageDisplayFrame extends JFrame {
         JPanel controlPanel = new JPanel();
         controlPanel.setLayout(new GridLayout(8, 2));
         controlPanel.add(new JLabel("Hauteur:"));
-        controlPanel.add(heightField);
+        controlPanel.add(hauteurIn);
         controlPanel.add(new JLabel("Largeur:"));
-        controlPanel.add(widthField);
+        controlPanel.add(largeurIn);
         controlPanel.add(new JLabel("Probabilité:"));
-        controlPanel.add(probabilityField);
+        controlPanel.add(probabiliteIn);
         controlPanel.add(new JLabel("Feux Initiaux (ex: 4,4;5,3;8,4):"));
-        controlPanel.add(initialFireField);
+        controlPanel.add(feuxInitials);
         controlPanel.add(textLabel3);
         controlPanel.add(simulateButton);
         controlPanel.add(textLabel1);
@@ -136,10 +136,12 @@ public class ImageDisplayFrame extends JFrame {
 
     private void lancerSimulation() {
         try {
-            int hauteur = Integer.parseInt(heightField.getText());
-            int largeur = Integer.parseInt(widthField.getText());
-            double probabilite = Double.parseDouble(probabilityField.getText());
-            String[] initialFeuxStr = initialFireField.getText().split(";");
+            int hauteur = Integer.parseInt(hauteurIn.getText());
+            int largeur = Integer.parseInt(largeurIn.getText());
+            double probabilite = Double.parseDouble(probabiliteIn.getText());
+
+            String[] initialFeuxStr = feuxInitials.getText().split(";");
+
             List<int[]> feuxInitials = new ArrayList<>();
             for (String feuStr : initialFeuxStr) {
                 String[] coords = feuStr.split(",");
@@ -155,8 +157,12 @@ public class ImageDisplayFrame extends JFrame {
             imagePaths = new String[etat + 1];
             for (int i = 0; i <= etat; i++) {
                 imagePaths[i] = "target/Etat " + i + ".png";
+                loadImage(i);
+
             }
-            loadImage(0);
+
+
+
             textLabel1.setText("Nombre d'etat: "+etat );
             textLabel2.setText("Nombre de Case Brulé (CENDRE): "+SimulationForetEnFeu.getNombreCendres());
 
