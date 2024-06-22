@@ -30,7 +30,7 @@ public class Main {
 
         // Extraire la probabilité de propagation
         Map<String, Double> probabiliteMap = (Map<String, Double>) data.get("probabilite");
-        double probabilitePropagation = probabiliteMap.get("propagation");
+        double probabilitePropagation = probabiliteMap.get("p");
 
         // lancer la semulation
          new SimulationForetEnFeu(hauteur, largeur, probabilitePropagation, casesEnFeu).lancerLeFeu();
